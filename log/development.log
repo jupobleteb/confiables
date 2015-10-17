@@ -39315,3 +39315,305 @@ Processing by TelefonosController#index as HTML
   [1m[36mTelefono Load (141.3ms)[0m  [1mSELECT "telefonos".* FROM "telefonos"[0m
   Rendered telefonos/index.html.erb within layouts/application (148.3ms)
 Completed 200 OK in 1151ms (Views: 1008.7ms | ActiveRecord: 141.3ms)
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2015-10-16 23:05:18 -0300
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (38.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 1427ms (Views: 995.7ms | ActiveRecord: 424.3ms)
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:19 -0300
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:20 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:20 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:20 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:20 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:20 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:20 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:21 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:21 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:21 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:21 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:21 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:21 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:22 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:22 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:22 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:22 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-16 23:05:22 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:22 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:23 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:23 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:23 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:23 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:23 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:23 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:24 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:24 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:24 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:24 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:24 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:25 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:25 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:25 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:25 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:25 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:25 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:26 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:26 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:26 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:26 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:26 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:27 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:27 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:27 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:27 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:27 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:27 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:28 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:28 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:28 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:28 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:28 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:28 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:29 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:29 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:29 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:29 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:29 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:29 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:30 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:30 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:30 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:30 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:30 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:31 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:31 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:31 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:31 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:31 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:31 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:32 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:32 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:32 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:32 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:32 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:32 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:33 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:33 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:33 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:33 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:33 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:34 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:34 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:34 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:34 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:34 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:34 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-16 23:05:35 -0300
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-16 23:16:11 -0300
+Processing by TelefonosController#index as HTML
+  [1m[35mTelefono Load (154.1ms)[0m  SELECT "telefonos".* FROM "telefonos"
+  Rendered telefonos/index.html.erb within layouts/application (161.1ms)
+Completed 200 OK in 1374ms (Views: 1217.8ms | ActiveRecord: 154.1ms)
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-16 23:16:12 -0300
+Processing by TelefonosController#index as HTML
+  [1m[36mTelefono Load (164.2ms)[0m  [1mSELECT "telefonos".* FROM "telefonos"[0m
+  Rendered telefonos/index.html.erb within layouts/application (170.2ms)
+Completed 200 OK in 1135ms (Views: 969.6ms | ActiveRecord: 164.2ms)
+
+
+Started GET "/ubicaciones" for 127.0.0.1 at 2015-10-16 23:16:16 -0300
+Processing by UbicacionesController#index as HTML
+  [1m[35mUbicacion Load (141.4ms)[0m  SELECT "ubicaciones".* FROM "ubicaciones"
+  Rendered ubicaciones/index.html.erb within layouts/application (147.4ms)
+Completed 200 OK in 1097ms (Views: 951.6ms | ActiveRecord: 141.4ms)
+
+
+Started GET "/perfiles" for 127.0.0.1 at 2015-10-16 23:16:20 -0300
+Processing by PerfilesController#index as HTML
+  [1m[36mPerfil Load (145.2ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"[0m
+  Rendered perfiles/index.html.erb within layouts/application (154.2ms)
+Completed 200 OK in 1137ms (Views: 983.7ms | ActiveRecord: 145.2ms)
