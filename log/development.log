@@ -39301,3 +39301,17 @@ Processing by UsuariosController#index as JSON
   [1m[36mUsuario Load (153.3ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
   Rendered usuarios/index.json.jbuilder (155.3ms)
 Completed 200 OK in 164ms (Views: 11.0ms | ActiveRecord: 153.3ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:59:39 -0300
+Processing by UsuariosController#index as JSON
+  [1m[35mUsuario Load (137.3ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.json.jbuilder (138.3ms)
+Completed 200 OK in 148ms (Views: 11.0ms | ActiveRecord: 137.3ms)
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-16 22:59:50 -0300
+Processing by TelefonosController#index as HTML
+  [1m[36mTelefono Load (141.3ms)[0m  [1mSELECT "telefonos".* FROM "telefonos"[0m
+  Rendered telefonos/index.html.erb within layouts/application (148.3ms)
+Completed 200 OK in 1151ms (Views: 1008.7ms | ActiveRecord: 141.3ms)
