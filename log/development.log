@@ -37902,3 +37902,5 @@ Processing by UsuariosController#index as JSON
   [1m[35mDireccion Load (1.0ms)[0m  SELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1  [["direccion_id", 2]]
   Rendered usuarios/index.json.jbuilder (8.0ms)
 Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 2.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
