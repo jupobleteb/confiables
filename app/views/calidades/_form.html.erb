@@ -1,0 +1,33 @@
+<%= form_for(@calidad) do |f| %>
+  <% if @calidad.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@calidad.errors.count, "error") %> prohibited this calidad from being saved:</h2>
+
+      <ul>
+      <% @calidad.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+
+  <div class="field">
+    <%= f.label :valor %><br>
+    <%= f.number_field :valor %>
+  </div>
+
+  <div>
+     <%= f.label "SLA (Acuerdo de servicio)"%><br>
+     <% options = fields_for(@sla_rules) do |ab| %>
+       <div class="field">
+           <%= ab.label "Todas las calidades" %><br/>
+           <%= collection_select(:slas, :sla_id, @all_slas, :contrato_id, :nombre, {},{:multiple => true})%>  
+       </div>
+     <% end %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

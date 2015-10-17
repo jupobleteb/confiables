@@ -1,0 +1,44 @@
+<%- model_class = Sla -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:sla_id) %></th>
+      <th><%= model_class.human_attribute_name(:nombre) %></th>
+      <th><%= model_class.human_attribute_name(:descripcion) %></th>
+      <th><%= model_class.human_attribute_name(:porcentajeImportacia) %></th>
+      <th><%= model_class.human_attribute_name(:activo) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @slas.each do |sla| %>
+      <tr>
+        <td><%= link_to sla.id, sla_path(sla) %></td>
+        <td><%= sla.sla_id %></td>
+        <td><%= sla.nombre %></td>
+        <td><%= sla.descripcion %></td>
+        <td><%= sla.porcentajeImportacia %></td>
+        <td><%= sla.activo %></td>
+        <td><%=l sla.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_sla_path(sla), :class => 'btn btn-default btn-xs' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      sla_path(sla),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-xs btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_sla_path,
+            :class => 'btn btn-primary' %>

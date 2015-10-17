@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datoslaborales_id: 
+  correo: MyString
+  telefono_id: 
+  fechacontrato: 2015-10-15 18:20:43
+  descripcion: MyText
+  direccion_id: 
+  usuario_id: 
+  empresa_id: 
+
+two:
+  datoslaborales_id: 
+  correo: MyString
+  telefono_id: 
+  fechacontrato: 2015-10-15 18:20:43
+  descripcion: MyText
+  direccion_id: 
+  usuario_id: 
+  empresa_id: 

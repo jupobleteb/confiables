@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  calidad_id: 
+  valor: 1
+  sla_id: 
+  contrato_id: 
+
+two:
+  calidad_id: 
+  valor: 1
+  sla_id: 
+  contrato_id: 

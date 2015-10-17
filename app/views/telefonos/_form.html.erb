@@ -1,0 +1,52 @@
+<%= form_for @telefono, :html => { :class => "form-horizontal telefono" } do |f| %>
+
+    <% if @telefono.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@telefono.errors.count, "error") %> prohibited this telefono from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @telefono.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :telefono_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :telefono_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@telefono[:telefono_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :codpais, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :codpais, :class => 'form-control' %>
+    </div>
+    <%= error_span(@telefono[:codpais]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :codciudad, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :codciudad, :class => 'form-control' %>
+    </div>
+    <%= error_span(@telefono[:codciudad]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :numero, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :numero, :class => 'form-control' %>
+    </div>
+    <%= error_span(@telefono[:numero]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            telefonos_path, :class => 'btn btn-default' %>
+
+<% end %>

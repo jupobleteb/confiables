@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  telefono_id: 
+  codpais: 1
+  codciudad: 1
+  numero: 1
+
+two:
+  telefono_id: 
+  codpais: 1
+  codciudad: 1
+  numero: 1

@@ -1,0 +1,66 @@
+<%= form_for @direccion, :html => { :class => "form-horizontal direccion" } do |f| %>
+
+    <% if @direccion.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@direccion.errors.count, "error") %> prohibited this direccion from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @direccion.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :direccion_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :direccion_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@direccion[:direccion_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :direccion, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :direccion, :class => 'form-control' %>
+    </div>
+    <%= error_span(@direccion[:direccion]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :numero, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :numero, :class => 'form-control' %>
+    </div>
+    <%= error_span(@direccion[:numero]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :complemento, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :complemento, :class => 'form-control' %>
+    </div>
+    <%= error_span(@direccion[:complemento]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :codPostal, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :codPostal, :class => 'form-control' %>
+    </div>
+    <%= error_span(@direccion[:codPostal]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :comuna_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :comuna_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@direccion[:comuna_id]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            direcciones_path, :class => 'btn btn-default' %>
+
+<% end %>

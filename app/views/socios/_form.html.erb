@@ -1,0 +1,52 @@
+<%= form_for @socio, :html => { :class => "form-horizontal socio" } do |f| %>
+
+    <% if @socio.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@socio.errors.count, "error") %> prohibited this socio from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @socio.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :socio_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :socio_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@socio[:socio_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :cargo, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :cargo, :class => 'form-control' %>
+    </div>
+    <%= error_span(@socio[:cargo]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :descripcion, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :descripcion, :class => 'form-control' %>
+    </div>
+    <%= error_span(@socio[:descripcion]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :usuario_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :usuario_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@socio[:usuario_id]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            socios_path, :class => 'btn btn-default' %>
+
+<% end %>

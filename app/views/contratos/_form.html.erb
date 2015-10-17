@@ -1,0 +1,101 @@
+<%= form_for @contrato, :html => { :class => "form-horizontal contrato" } do |f| %>
+
+    <% if @contrato.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@contrato.errors.count, "error") %> prohibited this contrato from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @contrato.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :contrato_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :contrato_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:contrato_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :prestador, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :prestador, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:prestador]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :nombre, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :nombre, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:nombre]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :descripcion, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :descripcion, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:descripcion]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :fechaInicio, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :fechaInicio, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:fechaInicio]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :fechaFin, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :fechaFin, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:fechaFin]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :clausulaTermino, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :clausulaTermino, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:clausulaTermino]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :evalucion, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :evalucion, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:evalucion]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :valorservicio, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :valorservicio, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:valorservicio]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :comision, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :comision, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:comision]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :usuario_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :usuario_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@contrato[:usuario_id]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            contratos_path, :class => 'btn btn-default' %>
+
+<% end %>

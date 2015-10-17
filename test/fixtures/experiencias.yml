@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  experiencia_id: 
+  fechaInicio: 2015-10-15 18:21:06
+  fechaFin: 2015-10-15 18:21:06
+  rubro: MyString
+  cargo: MyString
+  descripcion: MyText
+  laboral_id: 
+  empresa_id: 
+
+two:
+  experiencia_id: 
+  fechaInicio: 2015-10-15 18:21:06
+  fechaFin: 2015-10-15 18:21:06
+  rubro: MyString
+  cargo: MyString
+  descripcion: MyText
+  laboral_id: 
+  empresa_id: 

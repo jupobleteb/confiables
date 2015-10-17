@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  permisos_id: 
+  tipo: MyString
+  descripcion: MyText
+  perfil_id: 
+
+two:
+  permisos_id: 
+  tipo: MyString
+  descripcion: MyText
+  perfil_id: 

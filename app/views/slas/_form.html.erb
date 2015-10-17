@@ -1,0 +1,59 @@
+<%= form_for @sla, :html => { :class => "form-horizontal sla" } do |f| %>
+
+    <% if @sla.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@sla.errors.count, "error") %> prohibited this sla from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @sla.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :sla_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :sla_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@sla[:sla_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :nombre, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :nombre, :class => 'form-control' %>
+    </div>
+    <%= error_span(@sla[:nombre]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :descripcion, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :descripcion, :class => 'form-control' %>
+    </div>
+    <%= error_span(@sla[:descripcion]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :porcentajeImportacia, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :porcentajeImportacia, :class => 'form-control' %>
+    </div>
+    <%= error_span(@sla[:porcentajeImportacia]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :activo, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :activo, :class => 'form-control' %>
+    </div>
+    <%= error_span(@sla[:activo]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            slas_path, :class => 'btn btn-default' %>
+
+<% end %>

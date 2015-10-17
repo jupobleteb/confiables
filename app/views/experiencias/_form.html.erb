@@ -1,0 +1,80 @@
+<%= form_for @experiencia, :html => { :class => "form-horizontal experiencia" } do |f| %>
+
+    <% if @experiencia.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@experiencia.errors.count, "error") %> prohibited this experiencia from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @experiencia.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :experiencia_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :experiencia_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:experiencia_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :fechaInicio, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :fechaInicio, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:fechaInicio]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :fechaFin, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :fechaFin, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:fechaFin]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :rubro, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :rubro, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:rubro]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :cargo, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :cargo, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:cargo]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :descripcion, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :descripcion, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:descripcion]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :laboral_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :laboral_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:laboral_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :empresa_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :empresa_id, :class => 'form-control' %>
+    </div>
+    <%= error_span(@experiencia[:empresa_id]) %>
+  </div>
+
+
+  <%= f.submit nil, :class => 'btn btn-primary' %>
+  <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+            experiencias_path, :class => 'btn btn-default' %>
+
+<% end %>

@@ -1,0 +1,93 @@
+#Scaffold
+#construido despues de 04-10-2015
+rails g scaffold sla             sla_id:primary_key            nombre:string descripcion:text porcentajeImportacia:integer activo:string 
+rails g scaffold contrato        contrato_id:primary_key       prestador:integer nombre:string descripcion:text fechaInicio:datetime fechaFin:datetime clausulaTermino:text evalucion:integer valorservicio:integer comision:integer usuario:references
+rails g scaffold calidad         calidad_id:primary_key        valor:integer sla:references contrato:references
+rails g scaffold telefono        telefono_id:primary_key       codpais:integer codciudad:integer numero:integer
+rails g scaffold comuna          comuna_id:primary_key         nombre:string   region:string pais:string 
+rails g scaffold direccion       direccion_id:primary_key      direccion:string numero:integer complemento:string codPostal:integer comuna:references
+rails g scaffold usuario         usuario_id:primary_key        correo:string nombreUsuario:string claveUsuario:string nombre:string apellido:string genero:string fechaNacimiento:datetime facebook:string twitter:string linkedin:string youtube:string  telefono:references direccion:references
+rails g scaffold perfil          perfil_id:primary_key         nombre:string descripcion:text usuario:references permisos:references
+rails g scaffold permiso         permisos_id:primary_key       tipo:string descripcion:text  perfil:references
+rails g scaffold laboral         datoslaborales_id:primary_key correo:string  telefono:references fechacontrato:datetime descripcion:text direccion:references usuario:references empresa:references
+rails g scaffold socio           socio_id:primary_key          cargo:string descripcion:text usuario:references
+rails g scaffold experiencia     experiencia_id:primary_key    fechaInicio:datetime fechaFin:datetime rubro:string cargo:string descripcion:text laboral:references empresa:references
+rails g scaffold categoria       categoria_id:primary_key      nombre:string  descripcion:text laboral:references
+rails g scaffold habilidad       habilidad_id:primary_key      nombre:string  descripcion:text usuario:references
+rails g scaffold ubicacion       ubicacion_id:primary_key      longitud:string latitud:string fecha:datetime usuario:references
+rails g scaffold empresa         rut:primary_key              nombre:string acronimo:string rubro:string rutrepresentante:string email:string telefono:references direccion:references usuario:references
+
+# modificar , id:false  do |t|
+#Destroy
+rails destroy scaffold telefono    
+rails destroy scaffold comuna      
+rails destroy scaffold direccion   
+rails destroy scaffold calidad     
+rails destroy scaffold sla         
+rails destroy scaffold perfil      
+rails destroy scaffold permiso     
+rails destroy scaffold usuario     
+rails destroy scaffold laboral     
+rails destroy scaffold socio       
+rails destroy scaffold contrato    
+rails destroy scaffold experiencia 
+rails destroy scaffold categoria   
+rails destroy scaffold habilidad   
+rails destroy scaffold ubicacion   
+rails destroy scaffold empresa     
+
+
+rails generate migration add_
+
+laboral_to_experiencias :references 
+rails generate migration add_calidad_id_to_slas calidad:references
+rails generate migration add_idContrato_to_usuarios contratos:references
+rails generate migration add_idPerfil_to_usuarios perfils:references
+rails generate migration add_idSocio_to_usuarios socios:references
+rails generate migration add_idPerfil_to_perfil_permisos permisos:references
+rails generate migration add_idPermisos_to_perfil_permisos perfils:references
+rails generate migration add_idComuna_to_direccions comunas:references
+# construido despues de 04-10-2015
+
+rails generate migration add_id_datos_laborales experiencia:references
+rails generate migration add__to_
+rails generate migration add__to_
+rails generate migration add__to_ 
+rails generate migration add__to_
+rails generate migration add__to_
+rails generate migration add__to_
+rails generate migration add__to_
+rails generate migration add__to_
+rails generate migration add__to_
+rails generate migration add__to_
+
+
+
+
+
+#aplicacion creada en https://www.youtube.com/watch?v=0Dc-eVNA8ZM
+Creating floating-basin-9731... done, stack is cedar-14
+https://confiables.herokuapp.com/ | https://git.heroku.com/confiables.git
+#Declaracion de Base de datos en Rubi on Rails para proyectos confiable
+
+#CRUD With Scaffolding http://es.railsbridge.org/introduccion-a-rails/crud_con_scaffolding
+# cambiar asociaciones https://www.youtube.com/watch?v=HAyh9ILN_zQ
+
+ <!--  <li><%=# link_to "Categorías", categorias_path %></li>
+            <li><%=link_to "Comunas", comunas_path  %></li>
+            <li><%=link_to "Contratos", contratos_path  %></li>
+            <li><%=link_to "Datos Laborales", laborales_path %></li>
+            <li><%=link_to "Direcciones", direcciones_path %></li>
+            <li><%=link_to "EmpresaSocio", empresa_socios_path %></li>
+           
+           <li><%=link_to "Habilidades", habilidades_path  %></li>
+            <li><%=link_to "Permisos de perfil", perfiles_path %></li>
+            <li><%=link_to "SLA", slas_path %></li>
+            <li><%=link_to "Permisos", permisos_path %></li>
+            <li><%=link_to "Socios", socios_path %></li>
+            <li><%=link_to "Teléfonos", telefonos_path  %></li>
+            <li><%=link_to "UbicacioneUsuarios", ubicaciones_path  %></li>
+            <li><%=link_to "Usuarios", usuarios_path %></li>
+            <li><%= link_to "Empresas", empresas_path %></li>
+			 <li><%= link_to "Experiencia", experiencias_path  %></li>
+           -->

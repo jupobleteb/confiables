@@ -1,0 +1,20 @@
+Si a un cliente lo visitan a su dirección muchos vendedores y un Vendedor visita muchos clientes, esta afirmación se declararía de la siguiente manera:
+
+ , id:false  do |t|
+Un contrato puede tener muchas calidades y un SLA puede tener muchas calidades 
+
+class Contrato < ActiveRecord::Base
+  belongs_to :usuario
+  has_many :calidades
+  has_many :slas, through: :calidades
+end
+
+class calidad < ActiveRecord::Base
+  belongs_to :sla
+  belongs_to :contrato
+end
+
+class sla< ActiveRecord::Base
+  has_many :calidades
+  has_many :contrato, through: :calidades
+end

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  habilidad_id: 
+  nombre: MyString
+  descripcion: MyText
+  usuario_id: 
+
+two:
+  habilidad_id: 
+  nombre: MyString
+  descripcion: MyText
+  usuario_id: 

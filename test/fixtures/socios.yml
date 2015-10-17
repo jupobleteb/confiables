@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  socio_id: 
+  cargo: MyString
+  descripcion: MyText
+  usuario_id: 
+
+two:
+  socio_id: 
+  cargo: MyString
+  descripcion: MyText
+  usuario_id: 

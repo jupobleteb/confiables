@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  direccion_id: 
+  direccion: MyString
+  numero: 1
+  complemento: MyString
+  codPostal: 1
+  comuna_id: 
+
+two:
+  direccion_id: 
+  direccion: MyString
+  numero: 1
+  complemento: MyString
+  codPostal: 1
+  comuna_id: 

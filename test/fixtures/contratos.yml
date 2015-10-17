@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contrato_id: 
+  prestador: 1
+  nombre: MyString
+  descripcion: MyText
+  fechaInicio: 2015-10-15 11:50:14
+  fechaFin: 2015-10-15 11:50:14
+  clausulaTermino: MyText
+  evalucion: 1
+  valorservicio: 1
+  comision: 1
+  usuario_id: 
+
+two:
+  contrato_id: 
+  prestador: 1
+  nombre: MyString
+  descripcion: MyText
+  fechaInicio: 2015-10-15 11:50:14
+  fechaFin: 2015-10-15 11:50:14
+  clausulaTermino: MyText
+  evalucion: 1
+  valorservicio: 1
+  comision: 1
+  usuario_id: 

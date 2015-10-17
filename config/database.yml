@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  host: localhost
+  username: admin	
+  password: admin
+  database: confiables
+  encoding: unicode
+  port: 5432
+
+test:
+  adapter: postgresql
+  host: localhost
+  username: admin
+  password: admin
+  database: confiables_test
+  encoding: unicode
+  port: 5432
