@@ -38853,3 +38853,451 @@ Migrations are pending. To resolve this issue, run:
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
   Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:30:55 -0300
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:37:17 -0300
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.0ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:37:59 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#index as JSON
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  [1m[36mTelefono Load (1.0ms)[0m  [1mSELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1[0m  [["telefono_id", 1]]
+  [1m[35mDireccion Load (1.0ms)[0m  SELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1  [["direccion_id", 2]]
+  Rendered usuarios/index.json.jbuilder (74.1ms)
+Completed 200 OK in 113ms (Views: 76.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:40:15 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (281.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsuariosController#index as JSON
+  [1m[35mUsuario Load (140.1ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.json.jbuilder (152.1ms)
+Completed 200 OK in 195ms (Views: 28.0ms | ActiveRecord: 140.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-16 22:40:42 -0300
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1635ms (Views: 1634.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:44 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:44 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:44 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:44 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:45 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:45 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:45 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:45 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:45 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:45 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:46 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:46 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:46 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:46 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:46 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:47 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:47 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-16 22:40:47 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:47 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:47 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:47 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:48 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:48 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:48 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:48 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:48 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:49 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:49 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:49 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:49 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:49 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:50 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:50 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:50 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:50 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:50 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:50 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:51 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:51 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:51 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:51 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:51 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:51 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:52 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:52 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:52 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:52 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:52 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:53 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:53 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:53 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:53 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:53 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:53 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:54 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:54 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:54 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:54 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:54 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:54 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:55 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:55 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:55 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:55 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:55 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:56 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:56 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:56 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:56 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:56 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:56 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:57 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:57 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:57 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:57 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:57 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:58 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:58 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:58 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:58 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:58 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:58 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:59 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:59 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:59 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:59 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-16 22:40:59 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-16 22:41:00 -0300
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-16 22:41:02 -0300
+Processing by SlasController#index as HTML
+  [1m[36mSla Load (143.2ms)[0m  [1mSELECT "slas".* FROM "slas"[0m
+  Rendered slas/index.html.erb within layouts/application (644.5ms)
+Completed 200 OK in 1700ms (Views: 1079.7ms | ActiveRecord: 594.5ms)
+
+
+Started GET "/contratos" for 127.0.0.1 at 2015-10-16 22:41:05 -0300
+Processing by ContratosController#index as HTML
+  [1m[35mContrato Load (157.2ms)[0m  SELECT "contratos".* FROM "contratos"
+  Rendered contratos/index.html.erb within layouts/application (170.2ms)
+Completed 200 OK in 1201ms (Views: 1030.7ms | ActiveRecord: 157.2ms)
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-16 22:41:07 -0300
+Processing by TelefonosController#index as HTML
+  [1m[36mTelefono Load (149.2ms)[0m  [1mSELECT "telefonos".* FROM "telefonos"[0m
+  Rendered telefonos/index.html.erb within layouts/application (604.6ms)
+Completed 200 OK in 1663ms (Views: 1068.7ms | ActiveRecord: 582.6ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-10-16 22:41:10 -0300
+Processing by ComunasController#index as HTML
+  [1m[35mComuna Load (1094.3ms)[0m  SELECT "comunas".* FROM "comunas"
+  Rendered comunas/index.html.erb within layouts/application (1602.8ms)
+Completed 200 OK in 2611ms (Views: 1076.7ms | ActiveRecord: 1531.7ms)
+
+
+Started GET "/experiencias" for 127.0.0.1 at 2015-10-16 22:41:34 -0300
+Processing by ExperienciasController#index as HTML
+  [1m[36mExperiencia Load (138.4ms)[0m  [1mSELECT "experiencias".* FROM "experiencias"[0m
+  Rendered experiencias/index.html.erb within layouts/application (145.4ms)
+Completed 200 OK in 1183ms (Views: 1036.7ms | ActiveRecord: 138.4ms)
+
+
+Started GET "/socios" for 127.0.0.1 at 2015-10-16 22:41:36 -0300
+Processing by SociosController#index as HTML
+  [1m[35mSocio Load (140.2ms)[0m  SELECT "socios".* FROM "socios"
+  Rendered socios/index.html.erb within layouts/application (146.2ms)
+Completed 200 OK in 1138ms (Views: 989.7ms | ActiveRecord: 140.2ms)
+
+
+Started GET "/categorias" for 127.0.0.1 at 2015-10-16 22:41:38 -0300
+Processing by CategoriasController#index as HTML
+  [1m[36mCategoria Load (169.2ms)[0m  [1mSELECT "categorias".* FROM "categorias"[0m
+  Rendered categorias/index.html.erb within layouts/application (182.3ms)
+Completed 200 OK in 1111ms (Views: 934.7ms | ActiveRecord: 169.2ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:44:01 -0300
+Processing by UsuariosController#index as JSON
+  [1m[35mUsuario Load (140.3ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.json.jbuilder (141.3ms)
+Completed 200 OK in 150ms (Views: 8.0ms | ActiveRecord: 140.3ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-10-16 22:52:31 -0300
+Processing by UsuariosController#index as JSON
+  [1m[36mUsuario Load (153.3ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.json.jbuilder (155.3ms)
+Completed 200 OK in 164ms (Views: 11.0ms | ActiveRecord: 153.3ms)
