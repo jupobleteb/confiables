@@ -1,0 +1,43 @@
+<h1>Listing pruebas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Datobinary</th>
+      <th>Datobollean</th>
+      <th>Datodate</th>
+      <th>Datodecimal</th>
+      <th>Datofloat</th>
+      <th>Datointeger</th>
+      <th>Datotimestamp</th>
+      <th>Datotext</th>
+      <th>Datostring</th>
+      <th>Datofecha</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pruebas.each do |prueba| %>
+      <tr>
+        <td><%= prueba.datobinary %></td>
+        <td><%= prueba.datobollean %></td>
+        <td><%= prueba.datodate %></td>
+        <td><%= prueba.datodecimal %></td>
+        <td><%= prueba.datofloat %></td>
+        <td><%= prueba.datointeger %></td>
+        <td><%= prueba.datotimestamp %></td>
+        <td><%= prueba.datotext %></td>
+        <td><%= prueba.datostring %></td>
+        <td><%= prueba.datofecha %></td>
+        <td><%= link_to 'Show', prueba %></td>
+        <td><%= link_to 'Edit', edit_prueba_path(prueba) %></td>
+        <td><%= link_to 'Destroy', prueba, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Prueba', new_prueba_path %>

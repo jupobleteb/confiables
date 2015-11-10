@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datobinary: 
+  datobollean: false
+  datodate: 2015-10-17
+  datodecimal: 9.99
+  datofloat: 1.5
+  datointeger: 1
+  datotimestamp: 2015-10-17 11:24:55
+  datotext: MyText
+  datostring: MyString
+  datofecha: 2015-10-17 11:24:55
+
+two:
+  datobinary: 
+  datobollean: false
+  datodate: 2015-10-17
+  datodecimal: 9.99
+  datofloat: 1.5
+  datointeger: 1
+  datotimestamp: 2015-10-17 11:24:55
+  datotext: MyText
+  datostring: MyString
+  datofecha: 2015-10-17 11:24:55

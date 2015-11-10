@@ -1,17 +1,17 @@
 development:
   adapter: postgresql
-  host: ec2-54-204-6-113.compute-1.amazonaws.com
-  username: rnkjvwzciznuvk	
-  password: D0AWl9x9d6CLwFkUQPQC-n3glk
-  database: dacrm0fqpir6ka
+  host: localhost
+  username: admin	
+  password: admin
+  database: confiables
   encoding: unicode
   port: 5432
 
 test:
   adapter: postgresql
-  host: ec2-54-204-6-113.compute-1.amazonaws.com
-  username: rnkjvwzciznuvk
-  password: D0AWl9x9d6CLwFkUQPQC-n3glk
-  database: dacrm0fqpir6ka
+  host: localhost
+  username: admin
+  password: admin
+  database: confiables
   encoding: unicode
   port: 5432

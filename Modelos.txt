@@ -18,3 +18,12 @@ class sla< ActiveRecord::Base
   has_many :calidades
   has_many :contrato, through: :calidades
 end
+
+validates_associated :destinations
+
+
+  <!--
+<div class="field">
+    <h3> Contratos de calidad </h3>
+    <%= render "calidades/form" %>
+</div>-->

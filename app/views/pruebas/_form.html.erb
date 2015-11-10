@@ -1,0 +1,57 @@
+<%= form_for(@prueba) do |f| %>
+  <% if @prueba.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@prueba.errors.count, "error") %> prohibited this prueba from being saved:</h2>
+
+      <ul>
+      <% @prueba.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :datobinary %><br>
+    <%= f.text_field :datobinary %>
+  </div>
+  <div class="field">
+    <%= f.label :datobollean %><br>
+    <%= f.check_box :datobollean %>
+  </div>
+  <div class="field">
+    <%= f.label :datodate %><br>
+    <%= f.date_select :datodate %>
+  </div>
+  <div class="field">
+    <%= f.label :datodecimal %><br>
+    <%= f.text_field :datodecimal %>
+  </div>
+  <div class="field">
+    <%= f.label :datofloat %><br>
+    <%= f.text_field :datofloat %>
+  </div>
+  <div class="field">
+    <%= f.label :datointeger %><br>
+    <%= f.number_field :datointeger %>
+  </div>
+  <div class="field">
+    <%= f.label :datotimestamp %><br>
+    <%= f.datetime_select :datotimestamp %>
+  </div>
+  <div class="field">
+    <%= f.label :datotext %><br>
+    <%= f.text_area :datotext %>
+  </div>
+  <div class="field">
+    <%= f.label :datostring %><br>
+    <%= f.text_field :datostring %>
+  </div>
+  <div class="field">
+    <%= f.label :datofecha %><br>
+    <%= f.datetime_select :datofecha %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

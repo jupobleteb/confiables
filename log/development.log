@@ -39617,3 +39617,3886 @@ Processing by PerfilesController#index as HTML
   [1m[36mPerfil Load (145.2ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"[0m
   Rendered perfiles/index.html.erb within layouts/application (154.2ms)
 Completed 200 OK in 1137ms (Views: 983.7ms | ActiveRecord: 145.2ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-10-16 23:50:54 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (138.1ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (157.1ms)
+Completed 200 OK in 1141ms (Views: 995.7ms | ActiveRecord: 138.1ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-10-16 23:50:56 -0300
+Processing by ComunasController#index as HTML
+  [1m[36mComuna Load (165.2ms)[0m  [1mSELECT "comunas".* FROM "comunas"[0m
+  Rendered comunas/index.html.erb within layouts/application (257.3ms)
+Completed 200 OK in 1206ms (Views: 1040.7ms | ActiveRecord: 165.2ms)
+
+
+Started GET "/laborales" for 127.0.0.1 at 2015-10-16 23:51:08 -0300
+Processing by LaboralesController#index as HTML
+  [1m[35mLaboral Load (142.3ms)[0m  SELECT "laborales".* FROM "laborales"
+  Rendered laborales/index.html.erb within layouts/application (155.3ms)
+Completed 200 OK in 1143ms (Views: 990.7ms | ActiveRecord: 142.3ms)
+
+
+Started GET "/perfiles" for 127.0.0.1 at 2015-10-16 23:51:11 -0300
+Processing by PerfilesController#index as HTML
+  [1m[36mPerfil Load (175.4ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"[0m
+  Rendered perfiles/index.html.erb within layouts/application (181.4ms)
+Completed 200 OK in 1126ms (Views: 948.6ms | ActiveRecord: 175.4ms)
+
+
+Started GET "/experiencias" for 127.0.0.1 at 2015-10-16 23:51:13 -0300
+Processing by ExperienciasController#index as HTML
+  [1m[35mExperiencia Load (170.2ms)[0m  SELECT "experiencias".* FROM "experiencias"
+  Rendered experiencias/index.html.erb within layouts/application (177.2ms)
+Completed 200 OK in 1098ms (Views: 925.6ms | ActiveRecord: 170.2ms)
+
+
+Started GET "/empresas" for 127.0.0.1 at 2015-10-16 23:51:16 -0300
+Processing by EmpresasController#index as HTML
+  [1m[36mEmpresa Load (153.3ms)[0m  [1mSELECT "empresas".* FROM "empresas"[0m
+  Rendered empresas/index.html.erb within layouts/application (165.3ms)
+Completed 200 OK in 1123ms (Views: 959.6ms | ActiveRecord: 153.3ms)
+
+
+Started GET "/ubicaciones" for 127.0.0.1 at 2015-10-16 23:51:18 -0300
+Processing by UbicacionesController#index as HTML
+  [1m[35mUbicacion Load (136.4ms)[0m  SELECT "ubicaciones".* FROM "ubicaciones"
+  Rendered ubicaciones/index.html.erb within layouts/application (142.4ms)
+Completed 200 OK in 1095ms (Views: 957.6ms | ActiveRecord: 136.4ms)
+
+
+Started GET "/contratos" for 127.0.0.1 at 2015-10-16 23:54:36 -0300
+Processing by ContratosController#index as HTML
+  [1m[36mContrato Load (161.2ms)[0m  [1mSELECT "contratos".* FROM "contratos"[0m
+  Rendered contratos/index.html.erb within layouts/application (169.2ms)
+Completed 200 OK in 1101ms (Views: 937.6ms | ActiveRecord: 161.2ms)
+
+
+Started GET "/ubicaciones" for 127.0.0.1 at 2015-10-16 23:54:39 -0300
+Processing by UbicacionesController#index as HTML
+  [1m[35mUbicacion Load (141.2ms)[0m  SELECT "ubicaciones".* FROM "ubicaciones"
+  Rendered ubicaciones/index.html.erb within layouts/application (147.2ms)
+Completed 200 OK in 1153ms (Views: 1010.7ms | ActiveRecord: 141.2ms)
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-16 23:54:40 -0300
+Processing by SlasController#index as HTML
+  [1m[36mSla Load (144.1ms)[0m  [1mSELECT "slas".* FROM "slas"[0m
+  Rendered slas/index.html.erb within layouts/application (162.1ms)
+Completed 200 OK in 1147ms (Views: 1000.7ms | ActiveRecord: 144.1ms)
+
+
+Started GET "/slas/6/edit" for 127.0.0.1 at 2015-10-16 23:54:54 -0300
+Processing by SlasController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mSla Load (148.4ms)[0m  SELECT  "slas".* FROM "slas"  WHERE "slas"."sla_id" = $1 LIMIT 1  [["sla_id", 6]]
+  Rendered slas/_form.html.erb (14.0ms)
+  Rendered slas/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 1465ms (Views: 991.7ms | ActiveRecord: 323.6ms)
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-16 23:54:59 -0300
+Processing by SlasController#index as HTML
+  [1m[36mSla Load (141.2ms)[0m  [1mSELECT "slas".* FROM "slas"[0m
+  Rendered slas/index.html.erb within layouts/application (163.2ms)
+Completed 200 OK in 1144ms (Views: 1001.7ms | ActiveRecord: 141.2ms)
+
+
+Started GET "/laborales" for 127.0.0.1 at 2015-10-16 23:55:02 -0300
+Processing by LaboralesController#index as HTML
+  [1m[35mLaboral Load (136.2ms)[0m  SELECT "laborales".* FROM "laborales"
+  Rendered laborales/index.html.erb within layouts/application (143.2ms)
+Completed 200 OK in 1082ms (Views: 943.6ms | ActiveRecord: 136.2ms)
+
+
+Started GET "/habilidades" for 127.0.0.1 at 2015-10-16 23:55:05 -0300
+Processing by HabilidadesController#index as HTML
+  [1m[36mHabilidad Load (156.3ms)[0m  [1mSELECT "habilidades".* FROM "habilidades"[0m
+  Rendered habilidades/index.html.erb within layouts/application (166.3ms)
+Completed 200 OK in 1133ms (Views: 967.6ms | ActiveRecord: 156.3ms)
+
+
+Started GET "/habilidades/new" for 127.0.0.1 at 2015-10-16 23:55:08 -0300
+Processing by HabilidadesController#new as HTML
+  Rendered habilidades/_form.html.erb (9.0ms)
+  Rendered habilidades/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1436ms (Views: 971.6ms | ActiveRecord: 460.9ms)
+
+
+Started POST "/habilidades" for 127.0.0.1 at 2015-10-16 23:55:34 -0300
+Processing by HabilidadesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMO9DC/xeMSgaYRbHmFXIph/yfZ1kcCgPk1jsrLxV5s=", "habilidad"=>{"habilidad_id"=>"1", "nombre"=>"Creativo", "descripcion"=>"Persona que tiene creatividad", "usuario_id"=>""}, "commit"=>"Create Habilidad"}
+  [1m[35m (138.2ms)[0m  BEGIN
+  [1m[36mSQL (139.2ms)[0m  [1mINSERT INTO "habilidades" ("created_at", "descripcion", "habilidad_id", "nombre", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "habilidad_id"[0m  [["created_at", "2015-10-17 02:55:34.334879"], ["descripcion", "Persona que tiene creatividad"], ["habilidad_id", 1], ["nombre", "Creativo"], ["updated_at", "2015-10-17 02:55:34.334879"]]
+  [1m[35m (277.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/habilidades/1
+Completed 302 Found in 718ms (ActiveRecord: 554.8ms)
+
+
+Started GET "/habilidades/1" for 127.0.0.1 at 2015-10-16 23:55:34 -0300
+Processing by HabilidadesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHabilidad Load (136.1ms)[0m  [1mSELECT  "habilidades".* FROM "habilidades"  WHERE "habilidades"."habilidad_id" = $1 LIMIT 1[0m  [["habilidad_id", 1]]
+  Rendered habilidades/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 1330ms (Views: 1039.7ms | ActiveRecord: 136.1ms)
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:36 -0300
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:36 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:36 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:37 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:37 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:37 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:37 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:37 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:38 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:38 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:38 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:38 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:38 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:38 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:39 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:39 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:39 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-16 23:55:39 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:39 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:39 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:40 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:40 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:40 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:40 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:40 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:40 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:41 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:41 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:41 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:41 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:41 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:41 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:42 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:42 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:42 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:42 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:42 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:43 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:43 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:43 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:43 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:43 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:43 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:44 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:44 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:44 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:44 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:45 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:45 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:45 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:45 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:45 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:45 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:46 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:46 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:46 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:46 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:47 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:47 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:47 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:47 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:47 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:48 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:48 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:48 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:48 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:48 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:49 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:49 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:49 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:49 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:49 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-16 23:55:49 -0300
+
+
+Started GET "/habilidades" for 127.0.0.1 at 2015-10-16 23:55:57 -0300
+Processing by HabilidadesController#index as HTML
+  [1m[35mHabilidad Load (139.3ms)[0m  SELECT "habilidades".* FROM "habilidades"
+  Rendered habilidades/index.html.erb within layouts/application (147.3ms)
+Completed 200 OK in 1134ms (Views: 993.7ms | ActiveRecord: 139.3ms)
+
+
+Started GET "/habilidades" for 127.0.0.1 at 2015-10-16 23:56:01 -0300
+Processing by HabilidadesController#index as HTML
+  [1m[36mHabilidad Load (157.2ms)[0m  [1mSELECT "habilidades".* FROM "habilidades"[0m
+  Rendered habilidades/index.html.erb within layouts/application (165.2ms)
+Completed 200 OK in 1138ms (Views: 979.6ms | ActiveRecord: 157.2ms)
+
+
+Started GET "/habilidades/1/edit" for 127.0.0.1 at 2015-10-16 23:56:10 -0300
+Processing by HabilidadesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mHabilidad Load (141.2ms)[0m  SELECT  "habilidades".* FROM "habilidades"  WHERE "habilidades"."habilidad_id" = $1 LIMIT 1  [["habilidad_id", 1]]
+  Rendered habilidades/_form.html.erb (4.0ms)
+  Rendered habilidades/edit.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1112ms (Views: 968.6ms | ActiveRecord: 141.2ms)
+
+
+Started PATCH "/habilidades/1" for 127.0.0.1 at 2015-10-16 23:56:15 -0300
+Processing by HabilidadesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OMO9DC/xeMSgaYRbHmFXIph/yfZ1kcCgPk1jsrLxV5s=", "habilidad"=>{"habilidad_id"=>"1", "nombre"=>"Creativo", "descripcion"=>"Persona que tiene creatividad", "usuario_id"=>"1"}, "commit"=>"Update Habilidad", "id"=>"1"}
+  [1m[36mHabilidad Load (140.3ms)[0m  [1mSELECT  "habilidades".* FROM "habilidades"  WHERE "habilidades"."habilidad_id" = $1 LIMIT 1[0m  [["habilidad_id", 1]]
+  [1m[35m (135.1ms)[0m  BEGIN
+  [1m[36mSQL (151.1ms)[0m  [1mUPDATE "habilidades" SET "updated_at" = $1, "usuario_id" = $2 WHERE "habilidades"."habilidad_id" = 1[0m  [["updated_at", "2015-10-17 02:56:16.152496"], ["usuario_id", 1]]
+  [1m[35m (213.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/habilidades/1
+Completed 302 Found in 801ms (ActiveRecord: 639.8ms)
+
+
+Started GET "/habilidades/1" for 127.0.0.1 at 2015-10-16 23:56:16 -0300
+Processing by HabilidadesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHabilidad Load (198.3ms)[0m  [1mSELECT  "habilidades".* FROM "habilidades"  WHERE "habilidades"."habilidad_id" = $1 LIMIT 1[0m  [["habilidad_id", 1]]
+  Rendered habilidades/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1203ms (Views: 1001.7ms | ActiveRecord: 198.3ms)
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:18 -0300
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:18 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:18 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:18 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:18 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:19 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:19 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:19 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:19 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:19 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:20 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:20 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:20 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:20 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:20 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:20 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:21 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-16 23:56:21 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:21 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:21 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:21 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:21 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:22 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:22 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:22 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:22 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:22 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:23 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:23 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:23 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:23 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:23 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:23 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:24 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:24 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:24 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:24 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:24 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:25 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:25 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:25 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:25 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:25 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:25 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:26 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:26 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:26 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:26 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:26 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:27 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:27 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:27 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:27 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:28 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:28 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:28 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:28 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:28 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:29 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:29 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:29 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:29 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:29 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:29 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:30 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:30 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:30 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:30 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:30 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:31 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:31 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:31 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:31 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-16 23:56:31 -0300
+
+
+Started GET "/direcciones" for 127.0.0.1 at 2015-10-17 00:05:36 -0300
+Processing by DireccionesController#index as HTML
+  [1m[35mDireccion Load (136.2ms)[0m  SELECT "direcciones".* FROM "direcciones"
+  Rendered direcciones/index.html.erb within layouts/application (577.5ms)
+Completed 200 OK in 1617ms (Views: 1055.7ms | ActiveRecord: 559.5ms)
+
+
+Started GET "/direcciones.json" for 127.0.0.1 at 2015-10-17 00:05:55 -0300
+Processing by DireccionesController#index as JSON
+  [1m[36mDireccion Load (166.3ms)[0m  [1mSELECT "direcciones".* FROM "direcciones"[0m
+  [1m[35mComuna Load (136.2ms)[0m  SELECT  "comunas".* FROM "comunas"  WHERE "comunas"."comuna_id" = $1 LIMIT 1  [["comuna_id", 13114]]
+  Rendered direcciones/index.json.jbuilder (477.8ms)
+Completed 200 OK in 487ms (Views: 184.3ms | ActiveRecord: 302.5ms)
+
+
+Started GET "/perfiles" for 127.0.0.1 at 2015-10-17 00:06:06 -0300
+Processing by PerfilesController#index as HTML
+  [1m[36mPerfil Load (149.3ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"[0m
+  Rendered perfiles/index.html.erb within layouts/application (156.3ms)
+Completed 200 OK in 1125ms (Views: 974.6ms | ActiveRecord: 149.3ms)
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-17 00:06:08 -0300
+Processing by SlasController#index as HTML
+  [1m[35mSla Load (137.1ms)[0m  SELECT "slas".* FROM "slas"
+  Rendered slas/index.html.erb within layouts/application (159.1ms)
+Completed 200 OK in 1148ms (Views: 1007.7ms | ActiveRecord: 137.1ms)
+
+
+Started GET "/contratos" for 127.0.0.1 at 2015-10-17 00:06:20 -0300
+Processing by ContratosController#index as HTML
+  [1m[36mContrato Load (137.2ms)[0m  [1mSELECT "contratos".* FROM "contratos"[0m
+  Rendered contratos/index.html.erb within layouts/application (143.2ms)
+Completed 200 OK in 1094ms (Views: 955.6ms | ActiveRecord: 137.2ms)
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-17 00:06:23 -0300
+Processing by SlasController#index as HTML
+  [1m[35mSla Load (151.2ms)[0m  SELECT "slas".* FROM "slas"
+  Rendered slas/index.html.erb within layouts/application (175.2ms)
+Completed 200 OK in 1127ms (Views: 973.6ms | ActiveRecord: 151.2ms)
+
+
+Started GET "/slas/new" for 127.0.0.1 at 2015-10-17 00:06:26 -0300
+Processing by SlasController#new as HTML
+  Rendered slas/_form.html.erb (5.0ms)
+  Rendered slas/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 933ms (Views: 930.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contratos" for 127.0.0.1 at 2015-10-17 00:06:31 -0300
+Processing by ContratosController#index as HTML
+  [1m[36mContrato Load (137.2ms)[0m  [1mSELECT "contratos".* FROM "contratos"[0m
+  Rendered contratos/index.html.erb within layouts/application (145.2ms)
+Completed 200 OK in 1154ms (Views: 1014.7ms | ActiveRecord: 137.2ms)
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-17 00:06:33 -0300
+Processing by TelefonosController#index as HTML
+  [1m[35mTelefono Load (136.3ms)[0m  SELECT "telefonos".* FROM "telefonos"
+  Rendered telefonos/index.html.erb within layouts/application (147.3ms)
+Completed 200 OK in 1086ms (Views: 948.6ms | ActiveRecord: 136.3ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-10-17 00:06:36 -0300
+Processing by ComunasController#index as HTML
+  [1m[36mComuna Load (146.2ms)[0m  [1mSELECT "comunas".* FROM "comunas"[0m
+  Rendered comunas/index.html.erb within layouts/application (279.3ms)
+Completed 200 OK in 1217ms (Views: 1068.7ms | ActiveRecord: 146.2ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-10-17 00:06:38 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (152.3ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  Rendered usuarios/index.html.erb within layouts/application (156.3ms)
+Completed 200 OK in 1069ms (Views: 915.6ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/direcciones" for 127.0.0.1 at 2015-10-17 00:06:40 -0300
+Processing by DireccionesController#index as HTML
+  [1m[36mDireccion Load (152.2ms)[0m  [1mSELECT "direcciones".* FROM "direcciones"[0m
+  Rendered direcciones/index.html.erb within layouts/application (158.2ms)
+Completed 200 OK in 1108ms (Views: 954.6ms | ActiveRecord: 152.2ms)
+
+
+Started GET "/laborales" for 127.0.0.1 at 2015-10-17 00:06:43 -0300
+Processing by LaboralesController#index as HTML
+  [1m[35mLaboral Load (152.1ms)[0m  SELECT "laborales".* FROM "laborales"
+  Rendered laborales/index.html.erb within layouts/application (156.1ms)
+Completed 200 OK in 1076ms (Views: 923.6ms | ActiveRecord: 152.1ms)
+
+
+Started GET "/habilidades" for 127.0.0.1 at 2015-10-17 00:06:45 -0300
+Processing by HabilidadesController#index as HTML
+  [1m[36mHabilidad Load (153.4ms)[0m  [1mSELECT "habilidades".* FROM "habilidades"[0m
+  Rendered habilidades/index.html.erb within layouts/application (162.4ms)
+Completed 200 OK in 1153ms (Views: 998.7ms | ActiveRecord: 153.4ms)
+
+
+Started GET "/perfiles" for 127.0.0.1 at 2015-10-17 00:06:48 -0300
+Processing by PerfilesController#index as HTML
+  [1m[35mPerfil Load (136.2ms)[0m  SELECT "perfiles".* FROM "perfiles"
+  Rendered perfiles/index.html.erb within layouts/application (143.2ms)
+Completed 200 OK in 1109ms (Views: 971.6ms | ActiveRecord: 136.2ms)
+
+
+Started GET "/permisos" for 127.0.0.1 at 2015-10-17 00:06:53 -0300
+Processing by PermisosController#index as HTML
+  [1m[36mPermiso Load (139.1ms)[0m  [1mSELECT "permisos".* FROM "permisos"[0m
+  Rendered permisos/index.html.erb within layouts/application (144.1ms)
+Completed 200 OK in 1117ms (Views: 968.6ms | ActiveRecord: 139.1ms)
+
+
+Started GET "/ubicaciones" for 127.0.0.1 at 2015-10-17 00:06:55 -0300
+Processing by UbicacionesController#index as HTML
+  [1m[35mUbicacion Load (136.2ms)[0m  SELECT "ubicaciones".* FROM "ubicaciones"
+  Rendered ubicaciones/index.html.erb within layouts/application (143.2ms)
+Completed 200 OK in 1111ms (Views: 973.7ms | ActiveRecord: 136.2ms)
+
+
+Started GET "/empresas" for 127.0.0.1 at 2015-10-17 00:06:57 -0300
+Processing by EmpresasController#index as HTML
+  [1m[36mEmpresa Load (151.4ms)[0m  [1mSELECT "empresas".* FROM "empresas"[0m
+  Rendered empresas/index.html.erb within layouts/application (158.4ms)
+Completed 200 OK in 1141ms (Views: 988.7ms | ActiveRecord: 151.4ms)
+
+
+Started GET "/experiencias" for 127.0.0.1 at 2015-10-17 00:07:00 -0300
+Processing by ExperienciasController#index as HTML
+  [1m[35mExperiencia Load (146.2ms)[0m  SELECT "experiencias".* FROM "experiencias"
+  Rendered experiencias/index.html.erb within layouts/application (152.2ms)
+Completed 200 OK in 1112ms (Views: 965.6ms | ActiveRecord: 146.2ms)
+
+
+Started GET "/socios" for 127.0.0.1 at 2015-10-17 00:07:04 -0300
+Processing by SociosController#index as HTML
+  [1m[36mSocio Load (137.1ms)[0m  [1mSELECT "socios".* FROM "socios"[0m
+  Rendered socios/index.html.erb within layouts/application (141.1ms)
+Completed 200 OK in 1117ms (Views: 979.6ms | ActiveRecord: 137.1ms)
+
+
+Started GET "/categorias" for 127.0.0.1 at 2015-10-17 00:07:07 -0300
+Processing by CategoriasController#index as HTML
+  [1m[35mCategoria Load (175.3ms)[0m  SELECT "categorias".* FROM "categorias"
+  Rendered categorias/index.html.erb within layouts/application (181.3ms)
+Completed 200 OK in 1133ms (Views: 955.6ms | ActiveRecord: 175.3ms)
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-17 00:07:10 -0300
+Processing by SlasController#index as HTML
+  [1m[36mSla Load (146.2ms)[0m  [1mSELECT "slas".* FROM "slas"[0m
+  Rendered slas/index.html.erb within layouts/application (168.3ms)
+Completed 200 OK in 1106ms (Views: 958.6ms | ActiveRecord: 146.2ms)
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-17 00:18:44 -0300
+Processing by TelefonosController#index as HTML
+  [1m[35mTelefono Load (282.2ms)[0m  SELECT "telefonos".* FROM "telefonos"
+  Rendered telefonos/index.html.erb within layouts/application (290.2ms)
+Completed 200 OK in 1209ms (Views: 925.6ms | ActiveRecord: 282.2ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-10-17 11:12:34 -0300
+
+PG::ConnectionBad (could not translate host name "ec2-54-204-6-113.compute-1.amazonaws.com" to address: Unknown host
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-10-17 11:12:34 -0300
+
+PG::ConnectionBad (could not translate host name "ec2-54-204-6-113.compute-1.amazonaws.com" to address: Unknown host
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-10-17 11:12:38 -0300
+
+PG::ConnectionBad (could not translate host name "ec2-54-204-6-113.compute-1.amazonaws.com" to address: Unknown host
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-10-17 11:12:44 -0300
+
+PG::ConnectionBad (could not translate host name "ec2-54-204-6-113.compute-1.amazonaws.com" to address: Unknown host
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:12:47 -0300
+
+PG::ConnectionBad (could not translate host name "ec2-54-204-6-113.compute-1.amazonaws.com" to address: Unknown host
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:25:05 -0300
+
+PG::Error (invalid encoding name: unicode):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:908:in `set_client_encoding'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:908:in `configure_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:603:in `reconnect!'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract_adapter.rb:313:in `verify!'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:453:in `block in checkout_and_verify'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:452:in `checkout_and_verify'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:126:in `clear_cache!'
+  activerecord (4.1.8) lib/active_record/railtie.rb:148:in `block (3 levels) in <class:Railtie>'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:438:in `instance_exec'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:438:in `block in make_lambda'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:184:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:184:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:185:in `block in simple'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:25:13 -0300
+
+PG::ConnectionBad (could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "ec2-54-204-6-113.compute-1.amazonaws.com" (54.204.6.113) and accepting
+	TCP/IP connections on port 5432?
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:26:17 -0300
+
+PG::ConnectionBad (could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host "ec2-54-204-6-113.compute-1.amazonaws.com" (54.204.6.113) and accepting
+	TCP/IP connections on port 5432?
+):
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:888:in `connect'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:568:in `initialize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `new'
+  activerecord (4.1.8) lib/active_record/connection_adapters/postgresql_adapter.rb:41:in `postgresql_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.8) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.8) lib/active_record/migration.rb:388:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:33:21 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.8) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.8) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePruebas (20151017142455)
+  [1m[35m (2.0ms)[0m  BEGIN
+  [1m[36m (21.0ms)[0m  [1mCREATE TABLE "pruebas" ("id" serial primary key, "datobinary" bytea, "datobollean" boolean, "datodate" date, "datodecimal" decimal, "datofloat" float, "datointeger" integer, "datotimestamp" timestamp, "datotext" text, "datostring" character varying(255), "datofecha" timestamp, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151017142455"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:33:53 -0300
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5334ms (Views: 5308.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:58 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:58 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:58 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:58 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:58 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:58 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-17 11:33:59 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:00 -0300
+
+
+Started GET "/prueba" for 127.0.0.1 at 2015-10-17 11:34:08 -0300
+
+ActionController::RoutingError (No route matches [GET] "/prueba"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (16.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.1ms)
+
+
+Started GET "/pruebas" for 127.0.0.1 at 2015-10-17 11:34:12 -0300
+Processing by PruebasController#index as HTML
+  [1m[36mPrueba Load (1.0ms)[0m  [1mSELECT "pruebas".* FROM "pruebas"[0m
+  Rendered pruebas/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1156ms (Views: 1151.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:13 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-17 11:34:14 -0300
+
+
+Started GET "/pruebas/new" for 127.0.0.1 at 2015-10-17 11:34:16 -0300
+Processing by PruebasController#new as HTML
+  Rendered pruebas/_form.html.erb (60.2ms)
+  Rendered pruebas/new.html.erb within layouts/application (63.2ms)
+Completed 200 OK in 1101ms (Views: 1095.9ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:53:34 -0300
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1031ms (Views: 1029.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:53:35 -0300
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1004ms (Views: 1002.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:36 -0300
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:36 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:36 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:37 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:38 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:38 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:38 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:38 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:38 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-17 11:53:38 -0300
+
+
+Started GET "/contratos" for 127.0.0.1 at 2015-10-17 11:53:40 -0300
+Processing by ContratosController#index as HTML
+  [1m[35mContrato Load (2.0ms)[0m  SELECT "contratos".* FROM "contratos"
+  Rendered contratos/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 992ms (Views: 970.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/contratos.json" for 127.0.0.1 at 2015-10-17 11:53:48 -0300
+Processing by ContratosController#index as JSON
+  [1m[36mContrato Load (0.0ms)[0m  [1mSELECT "contratos".* FROM "contratos"[0m
+  Rendered contratos/index.json.jbuilder (11.0ms)
+Completed 200 OK in 19ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 11:55:28 -0300
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 995ms (Views: 992.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:29 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-17 11:55:30 -0300
+
+
+Started GET "/slas" for 127.0.0.1 at 2015-10-17 11:55:33 -0300
+Processing by SlasController#index as HTML
+  [1m[35mSla Load (2.0ms)[0m  SELECT "slas".* FROM "slas"
+  Rendered slas/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 1036ms (Views: 1026.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/contratos" for 127.0.0.1 at 2015-10-17 11:55:36 -0300
+Processing by ContratosController#index as HTML
+  [1m[36mContrato Load (0.0ms)[0m  [1mSELECT "contratos".* FROM "contratos"[0m
+  Rendered contratos/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 919ms (Views: 917.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/telefonos" for 127.0.0.1 at 2015-10-17 11:55:39 -0300
+Processing by TelefonosController#index as HTML
+  [1m[35mTelefono Load (1.0ms)[0m  SELECT "telefonos".* FROM "telefonos"
+  Rendered telefonos/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 938ms (Views: 928.6ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-10-17 11:55:43 -0300
+Processing by ComunasController#index as HTML
+  [1m[36mComuna Load (2.0ms)[0m  [1mSELECT "comunas".* FROM "comunas"[0m
+  Rendered comunas/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 1040ms (Views: 1031.7ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-10-17 11:55:48 -0300
+Processing by ComunasController#index as HTML
+  [1m[35mComuna Load (1.0ms)[0m  SELECT "comunas".* FROM "comunas"
+  Rendered comunas/index.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 1011ms (Views: 1009.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/laborales" for 127.0.0.1 at 2015-10-17 11:55:50 -0300
+Processing by LaboralesController#index as HTML
+  [1m[36mLaboral Load (3.0ms)[0m  [1mSELECT "laborales".* FROM "laborales"[0m
+  Rendered laborales/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 973ms (Views: 964.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/habilidades" for 127.0.0.1 at 2015-10-17 11:55:52 -0300
+Processing by HabilidadesController#index as HTML
+  [1m[35mHabilidad Load (2.0ms)[0m  SELECT "habilidades".* FROM "habilidades"
+  Rendered habilidades/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 955ms (Views: 948.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/perfiles" for 127.0.0.1 at 2015-10-17 11:55:54 -0300
+Processing by PerfilesController#index as HTML
+  [1m[36mPerfil Load (2.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"[0m
+  Rendered perfiles/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 964ms (Views: 956.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/permisos" for 127.0.0.1 at 2015-10-17 11:55:56 -0300
+Processing by PermisosController#index as HTML
+  [1m[35mPermiso Load (2.0ms)[0m  SELECT "permisos".* FROM "permisos"
+  Rendered permisos/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 987ms (Views: 980.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/ubicaciones" for 127.0.0.1 at 2015-10-17 11:55:58 -0300
+Processing by UbicacionesController#index as HTML
+  [1m[36mUbicacion Load (2.0ms)[0m  [1mSELECT "ubicaciones".* FROM "ubicaciones"[0m
+  Rendered ubicaciones/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 920ms (Views: 914.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-10 19:27:12 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (10.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#index as HTML
+  Rendered index/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 3812ms (Views: 3791.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:17 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:18 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (16.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (19.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (156.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2015-11-10 19:27:19 -0300
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.1ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-11-10 19:27:23 -0300
+Processing by ComunasController#index as HTML
+  [1m[35mComuna Load (7.0ms)[0m  SELECT "comunas".* FROM "comunas"
+  Rendered comunas/index.html.erb within layouts/application (110.1ms)
+Completed 200 OK in 1085ms (Views: 1052.7ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-11-10 19:27:29 -0300
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (13.0ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  [1m[35mTelefono Load (7.0ms)[0m  SELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1  [["telefono_id", 1]]
+  [1m[36mDireccion Load (10.0ms)[0m  [1mSELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1[0m  [["direccion_id", 2]]
+  Rendered usuarios/index.html.erb within layouts/application (171.1ms)
+Completed 200 OK in 2173ms (Views: 2121.4ms | ActiveRecord: 48.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-11-10 19:27:31 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  [1m[36mTelefono Load (0.0ms)[0m  [1mSELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1[0m  [["telefono_id", 1]]
+  [1m[35mDireccion Load (1.0ms)[0m  SELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1  [["direccion_id", 2]]
+  Rendered usuarios/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 1132ms (Views: 1128.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios.jason" for 127.0.0.1 at 2015-11-10 19:28:07 -0300
+Processing by UsuariosController#index as 
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  [1m[35mTelefono Load (0.0ms)[0m  SELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1  [["telefono_id", 1]]
+  [1m[36mDireccion Load (1.0ms)[0m  [1mSELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1[0m  [["direccion_id", 2]]
+  Rendered usuarios/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1242ms (Views: 1238.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:08 -0300
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:08 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:08 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:08 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:08 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:09 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-10 19:28:10 -0300
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-11-10 19:28:12 -0300
+Processing by UsuariosController#index as JSON
+  [1m[35mUsuario Load (0.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  [1m[36mTelefono Load (1.0ms)[0m  [1mSELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1[0m  [["telefono_id", 1]]
+  [1m[35mDireccion Load (0.0ms)[0m  SELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1  [["direccion_id", 2]]
+  Rendered usuarios/index.json.jbuilder (20.0ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/laborales" for 127.0.0.1 at 2015-11-10 19:29:26 -0300
+Processing by LaboralesController#index as HTML
+  [1m[36mLaboral Load (9.0ms)[0m  [1mSELECT "laborales".* FROM "laborales"[0m
+  Rendered laborales/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1494ms (Views: 1480.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/laborales.json" for 127.0.0.1 at 2015-11-10 19:29:36 -0300
+Processing by LaboralesController#index as JSON
+  [1m[35mLaboral Load (1.0ms)[0m  SELECT "laborales".* FROM "laborales"
+  Rendered laborales/index.json.jbuilder (3.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/laborales" for 127.0.0.1 at 2015-11-10 19:29:38 -0300
+Processing by LaboralesController#index as HTML
+  [1m[36mLaboral Load (1.0ms)[0m  [1mSELECT "laborales".* FROM "laborales"[0m
+  Rendered laborales/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 1078ms (Views: 1075.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:39 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:40 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-10 19:29:41 -0300
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-11-10 19:29:44 -0300
+Processing by ComunasController#index as HTML
+  [1m[35mComuna Load (1.0ms)[0m  SELECT "comunas".* FROM "comunas"
+  Rendered comunas/index.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 1030ms (Views: 1026.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/comunas/13101/edit" for 127.0.0.1 at 2015-11-10 19:40:38 -0300
+Processing by ComunasController#edit as HTML
+  Parameters: {"id"=>"13101"}
+  [1m[36mComuna Load (0.0ms)[0m  [1mSELECT  "comunas".* FROM "comunas"  WHERE "comunas"."comuna_id" = $1 LIMIT 1[0m  [["comuna_id", 13101]]
+  Rendered comunas/_form.html.erb (15.0ms)
+  Rendered comunas/edit.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 1815ms (Views: 1810.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunas" for 127.0.0.1 at 2015-11-10 19:40:43 -0300
+Processing by ComunasController#index as HTML
+  [1m[35mComuna Load (1.0ms)[0m  SELECT "comunas".* FROM "comunas"
+  Rendered comunas/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 1291ms (Views: 1289.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/empresas" for 127.0.0.1 at 2015-11-10 19:40:47 -0300
+Processing by EmpresasController#index as HTML
+  [1m[36mEmpresa Load (7.0ms)[0m  [1mSELECT "empresas".* FROM "empresas"[0m
+  Rendered empresas/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1675ms (Views: 1664.1ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-11-10 19:57:20 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  [1m[36mTelefono Load (0.0ms)[0m  [1mSELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1[0m  [["telefono_id", 1]]
+  [1m[35mDireccion Load (1.0ms)[0m  SELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1  [["direccion_id", 2]]
+  Rendered usuarios/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1550ms (Views: 1549.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios.json" for 127.0.0.1 at 2015-11-10 19:57:31 -0300
+Processing by UsuariosController#index as JSON
+  [1m[36mUsuario Load (0.0ms)[0m  [1mSELECT "usuarios".* FROM "usuarios"[0m
+  [1m[35mTelefono Load (0.0ms)[0m  SELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1  [["telefono_id", 1]]
+  [1m[36mDireccion Load (1.0ms)[0m  [1mSELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1[0m  [["direccion_id", 2]]
+  Rendered usuarios/index.json.jbuilder (8.0ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2015-11-10 19:57:34 -0300
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT "usuarios".* FROM "usuarios"
+  [1m[36mTelefono Load (1.0ms)[0m  [1mSELECT  "telefonos".* FROM "telefonos"  WHERE "telefonos"."telefono_id" = $1 LIMIT 1[0m  [["telefono_id", 1]]
+  [1m[35mDireccion Load (1.0ms)[0m  SELECT  "direcciones".* FROM "direcciones"  WHERE "direcciones"."direccion_id" = $1 LIMIT 1  [["direccion_id", 2]]
+  Rendered usuarios/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1052ms (Views: 1048.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/direcciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/calidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/categorias.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/empresas.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/contratos.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/comunas.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/experiencias.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/habilidades.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/laborales.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/perfiles.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/permisos.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/pruebas.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/slas.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/socios.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/telefonos.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/ubicaciones.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/usuarios.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/calidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/categorias.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/comunas.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/contratos.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/direcciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/empresas.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/experiencias.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/habilidades.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/laborales.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/perfiles.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/permisos.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/pruebas.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/slas.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/socios.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/telefonos.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/ubicaciones.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/usuarios.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:35 -0300
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/core.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/widget.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/accordion.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/position.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/menu.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/autocomplete.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/button.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/datepicker.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/mouse.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/draggable.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/resizable.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/dialog.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/droppable.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-blind.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-bounce.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-clip.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-drop.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-explode.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fade.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-fold.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-highlight.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-size.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-scale.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-puff.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-pulsate.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-shake.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-slide.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/effect-transfer.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/progressbar.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/selectable.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/selectmenu.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/slider.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/sortable.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/spinner.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/tabs.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui/tooltip.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2015-11-10 19:57:36 -0300
+
+
+Started GET "/usuarios/1/edit" for 127.0.0.1 at 2015-11-10 19:57:44 -0300
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."usuario_id" = $1 LIMIT 1[0m  [["usuario_id", 1]]
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1782ms (Views: 1779.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2015-11-10 19:57:50 -0300
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1328ms (Views: 1327.9ms | ActiveRecord: 0.0ms)

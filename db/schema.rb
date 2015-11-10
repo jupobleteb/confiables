@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151015212152) do
+ActiveRecord::Schema.define(version: 20151017142455) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -154,6 +154,21 @@ ActiveRecord::Schema.define(version: 20151015212152) do
   end
 
   add_index "permisos", ["perfil_id"], name: "index_permisos_on_perfil_id", using: :btree
+
+  create_table "pruebas", force: true do |t|
+    t.binary   "datobinary"
+    t.boolean  "datobollean"
+    t.date     "datodate"
+    t.decimal  "datodecimal"
+    t.float    "datofloat"
+    t.integer  "datointeger"
+    t.datetime "datotimestamp"
+    t.text     "datotext"
+    t.string   "datostring"
+    t.datetime "datofecha"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "slas", primary_key: "sla_id", force: true do |t|
     t.string   "nombre"
